@@ -18,5 +18,3 @@ test_data = {
 
 api_key = os.environ.get("STRIPE_TEST_API_KEY")
 stripe_client = StripeClient(api_key=api_key)
-
-#

@@ -6,15 +6,11 @@ build-backend = "setuptools.build_meta"
 name = "functions_core_lib"
 version = "0.1.0"
 description = "Lib containing core python for google cloud functions"
-authors = [{ name = "Sean Cahilla", email = "sjoscahill@gmail.com" }]
+authors = [{ name = "Sean Cahill", email = "sjoscahill@gmail.com" }]
 readme = { file = "README.md", content-type = "text/markdown" }
 requires-python = ">= 3.11"
-dependencies = [
-    "loguru>=0.7.3",
-    "stripe>=11.6.0",
-]
+dependencies = ["loguru>=0.7.3", "stripe>=11.6.0"]
 classifiers = [
-    "Prive :: Do Not Upload",
     "Programming Language :: Python :: 3.11",
     "Programming Language :: Python :: 3.12",
 ]
@@ -28,7 +24,7 @@ pythonpath = [".", "src"]
 [tool.pytest.ini_options]
 minversion = "6.0"
 addopts = "-ra"
-testpaths = ["tests"]
+testpaths = ["test"]
 
 [project.optional-dependencies]
-dev = [ "pytest", "ruff", "dotenv" ]
+dev = ["pytest", "ruff", "dotenv"]

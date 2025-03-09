@@ -9,7 +9,7 @@ description = "Lib containing core python for google cloud functions"
 authors = [{ name = "Sean Cahill", email = "sjoscahill@gmail.com" }]
 readme = { file = "README.md", content-type = "text/markdown" }
 requires-python = ">= 3.11"
-dependencies = ["loguru>=0.7.3", "stripe>=11.6.0"]
+dependencies = ["loguru>=0.7.3", "stripe>=11.5.0"]
 classifiers = [
     "Programming Language :: Python :: 3.11",
     "Programming Language :: Python :: 3.12",

@@ -1,9 +1,27 @@
 from dataclasses import dataclass
-from typing import Any, Optional
+from typing import Any, Optional, TypedDict
+
+
+class AddressDict(TypedDict, total=False):
+    city: str
+    country: str
+    street1: str
+    street2: str
+    zipCode: str
+    state: str
+
+
+class StripeAddressDict(TypedDict, total=False):
+    city: str
+    country: str
+    line1: str
+    line2: str
+    postal_code: str
+    state: str
 
 
 @dataclass
-class CreateCustomerApiResponse:
+class CustomerApiResponse:
     success: bool
     message: str
     data: Optional[Any] = None

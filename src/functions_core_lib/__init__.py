@@ -1,3 +1,1 @@
-from importlib.metadata import version
-
-__version__ = version("functions_core_lib")
+__version__ = "0.2.0"

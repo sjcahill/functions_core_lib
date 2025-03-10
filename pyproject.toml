@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "mainttracker_functions_core_lib"
-version = "0.1.0"
+version = "0.2.0"
 description = "Lib containing core python for google cloud functions"
 authors = [{ name = "Sean Cahill", email = "sjoscahill@gmail.com" }]
 readme = { file = "README.md", content-type = "text/markdown" }
